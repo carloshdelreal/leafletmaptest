@@ -1,4 +1,4 @@
-const colombiaMap = require('./deptos.json')
+
 
 
 const colombiaMap = () => {
