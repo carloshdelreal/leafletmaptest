@@ -9,4 +9,11 @@
 }
 .info{
   background-color: white;
+  padding: 1rem;
+  border-radius: 15px;
+  border: 1px solid gray;
+} 
+h4{
+  margin-top: 0px;
+  font-weight: 800;
 }
