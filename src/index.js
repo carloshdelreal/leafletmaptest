@@ -3,8 +3,6 @@ import './style.css';
 const colombiaMap = require('./deptos2.json')
 
 window.onload = () => {
-  console.log("it works");
-  console.log(L);
   const map = L.map('mapid').setView([4.485, -73.41], 5);
 
   L.tileLayer(`https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}`, {
@@ -27,8 +25,6 @@ window.onload = () => {
                       '#FFEDA0';
   }
   function style(feature) {
-    console.log("feature.properties")
-    console.log(feature.properties)
     return {
         fillColor: getColor(feature.properties.AñO_CREAC),
         weight: 2,
