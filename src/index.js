@@ -80,7 +80,7 @@ window.onload = () => {
 
   // method that we will use to update the control based on feature properties passed
   info.update = function (props) {
-      this._div.innerHTML = '<h4>Fecha de Creación de Departamento</h4>' +  (props ?
+      this._div.innerHTML = '<h4>Fecha de Fundación de Departamento</h4>' +  (props ?
           '<b>' + props.Name + '</b><br />' + props.AñO_CREAC: 'Hover over a state');
   };
 
